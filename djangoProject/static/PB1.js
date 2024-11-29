@@ -35,7 +35,7 @@ const ssecn= {
 
 const  webworkercn = {
   create2: () => new Promise((resolve, reject) =>{
-    new Worker('../static/worker.js');
+    const wk = new Worker('../static/worker.js');
   })
 }
 
